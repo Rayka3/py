@@ -26,5 +26,21 @@ html {
 }
 
 .content {
-	margin-top: 60px;
+	margin-top: 66px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	justify-content: center;
 }
+
+.usl {
+	width: 346px;
+	height: 300px;
+	background: #f00;
+	margin-left: 11px;
+	min-width: 346px;
+	flex-grow: 1;
+	max-width: 410px;
+	margin-top: 11px;
+}
+
