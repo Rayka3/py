@@ -40,6 +40,7 @@ html {
 .description {
 	background-color: #4273DB;
 	padding: 1em;
+	border-radius: 8px;
 }
 
 .description > p {
@@ -68,7 +69,7 @@ html {
 	background-blend-mode: multiply;
 	cursor: pointer;
 	transition: all 0.1s ease-in;
-	border-radius: 10px;
+	border-radius: 8px;
 }
 .usl:hover {
 	background-color: rgba(0,0,0,0.40);
