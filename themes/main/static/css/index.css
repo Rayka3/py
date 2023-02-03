@@ -4,10 +4,13 @@ body, html {
 html {
 	font-size: 25px;
 	font-family: 'PT Sans Narrow', sans-serif;
+	color: #e4f1f8;
+	letter-spacing: 0.035em;
 }
 
 .container {
 	padding: 73px;
+	background-color: #0d42b6;
 }
 
 .header {
@@ -23,6 +26,7 @@ html {
 .header .title p {
 	font-size: 38px;
 	text-align: center;
+	font-weight: bold;
 }
 
 .content {
@@ -33,16 +37,17 @@ html {
 	justify-content: center;
 }
 
-.title {
-	color: #fff;
-}
-
 .description {
-	background-color: #fff;
+	background-color: #4273DB;
+	padding: 1em;
 }
 
-.ppp {
-	background-color: #fff;
+.description > p {
+  margin: 0 0 0.5em 0;
+}
+
+.description > p:last-child {
+   margin: 0;
 }
 
 .usl {
@@ -64,19 +69,12 @@ html {
 
 .usl p {
 	margin: auto;
+	margin-top: 1em;
 	/*width: 100%;
 	height: 100%;*/
-	color: #fff;
 	font-size:  40px;
-}
-
-.usl p1 {
-	margin: auto;
-	margin-top: 40px;
-	/*width: 100%;
-	height: 100%;*/
-	color: #fff;
-	font-size:  50px;
+	background-color: rgba(0,0,0,0.5);
+	background-blend-mode: multiply;
 }
 
 .bgst {
