@@ -33,6 +33,18 @@ html {
 	justify-content: center;
 }
 
+.title {
+	color: #fff;
+}
+
+.description {
+	background-color: #fff;
+}
+
+.ppp {
+	background-color: #fff;
+}
+
 .usl {
 	width: 346px;
 	height: 300px;
@@ -42,5 +54,32 @@ html {
 	flex-grow: 1;
 	max-width: 410px;
 	margin-top: 11px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
+.usl p {
+	margin: auto;
+	/*width: 100%;
+	height: 100%;*/
+	color: #fff;
+	font-size:  40px;
+}
+
+.usl p1 {
+	margin: auto;
+	margin-top: 40px;
+	/*width: 100%;
+	height: 100%;*/
+	color: #fff;
+	font-size:  50px;
+}
+
+.bgst {
+	justify-content: center;
+/*	opacity: 0.6;*/
+}
