@@ -51,6 +51,15 @@ html {
    margin: 0;
 }
 
+.tre {
+	width: 146px;
+	height: 100px;
+	/*min-width: 346px;
+	flex-grow: 1;
+	max-width: 410px;
+	margin-top: 11px;*/
+}
+
 .usl {
 	width: 346px;
 	height: 300px;
