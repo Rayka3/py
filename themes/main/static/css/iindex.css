@@ -1,0 +1,23 @@
+.buttons {
+	display: flex;
+	width: 100%;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	overflow: hidden;
+	margin-bottom: 38px;
+}
+
+.button {
+	flex-grow: 1;
+	background-color: #4273DB;
+	cursor: pointer;
+	transition: all 0.1s ease-in;
+	text-align: center;
+	vertical-align: middle;
+	align-items: center;
+}
+
+.button:hover {
+	background-color: #4f7ddd;
+
+}
