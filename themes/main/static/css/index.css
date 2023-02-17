@@ -1,11 +1,16 @@
 body, html {
 	margin: 0;
+	background-color: #0d42b6;
 }
 html {
 	font-size: 25px;
 	font-family: 'PT Sans Narrow', sans-serif;
 	color: #e4f1f8;
 	letter-spacing: 0.035em;
+}
+a {
+	text-decoration: none;
+	color: inherit;
 }
 
 .container {

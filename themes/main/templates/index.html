@@ -1,54 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>КСК Каскад</title>
+{% extends "base.html" %}
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
-	<style>@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');</style>
+{% block content %}
 
-	<link rel="stylesheet" href="{{ SITEURL }}/theme/css/index.css">
-
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="sheet">
-	<style>@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');</style>
-
-	<link rel="sheet" href="{{ SITEURL }}/theme/templates/iindex.html">
-</head>
-<body>
-	<div class="container">
-		<div class="buttons">
-		<div class="button" onclick="window.location.href = 'https://';"><p>Список тренеров</p></div>
-		<div class="button" onclick="window.location.href = 'https://';"><p>О клубе</p></div>
-		<div class="button" onclick="window.location.href = 'https://';"><p>Стоимость обучения</p></div>
-		<div class="button" onclick="window.location.href = 'https://';"><p>Контакты</p></div>
-		</div>
-		<div class="header">
-			<div class="emblem">
-				<img src="{{ SITEURL }}/theme/images/emblem.png">
-			</div>
-			<div class="title">
-				<p>КСК КАСКАД</p>
-			</div>
-			<div class="description">
-				<p>Описание: </p>
-				<p>Что-то там...</p>
-			</div>
-		</div>
-		<div class="content">
-			<div class='usl' style='background-image: url("{{ SITEURL  }}/theme/images/VV2.jpg")'><p>Выездка</p></div>
-			<div class="usl" style='background-image: url("{{ SITEURL  }}/theme/images/KK2.jpg")'><p>Конкур</p></div>
-			<div class="usl" style='background-image: url("{{ SITEURL  }}/theme/images/Vol.jpg")'><p>Вольтижировка</p></div>
-			<div class="usl" style='background-image: url("{{ SITEURL  }}/theme/images/Dg.jpg")'><p>Джигитовка</p></div>
-			<div class="usl" style='background-image: url("{{ SITEURL  }}/theme/images/STRLjpg.jpg")'><p>Конная стрельба из лука</p></div>
-
-		</div>
-
+<div class="header">
+	<div class="emblem">
+		<img src="{{ SITEURL }}/theme/images/emblem.png">
 	</div>
-</pp>
-</body>
-</html>
+	<div class="title">
+		<p>КСК КАСКАД</p>
+	</div>
+	<div class="description">
+		<p>Описание: </p>
+		<p>Что-то там...</p>
+	</div>
+</div>
+<div class="content">
+	<div class='usl' style='background-image: url("{{ SITEURL }}/theme/images/VV2.jpg")'><p>Выездка</p></div>
+	<div class="usl" style='background-image: url("{{ SITEURL }}/theme/images/KK2.jpg")'><p>Конкур</p></div>
+	<div class="usl" style='background-image: url("{{ SITEURL }}/theme/images/Vol.jpg")'><p>Вольтижировка</p></div>
+	<div class="usl" style='background-image: url("{{ SITEURL }}/theme/images/Dg.jpg")'><p>Джигитовка</p></div>
+	<div class="usl" style='background-image: url("{{ SITEURL }}/theme/images/STRLjpg.jpg")'><p>Конная стрельба из лука</p></div>
+</div>
+{% endblock %}
