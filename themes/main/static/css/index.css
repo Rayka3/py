@@ -134,7 +134,7 @@ a {
 	background-position: center center;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: revert;
 	background-color: rgba(0,0,0,0.10);
 	background-blend-mode: multiply;
 	cursor: pointer;
@@ -149,3 +149,4 @@ a {
 	margin: auto;
 	margin-top: 1em;
 	font-size:  40px;
+}
