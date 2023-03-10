@@ -118,7 +118,7 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	flex-grow: 1;
-	justify-content: center;
+	justify-content: end;
 }
 
 .hr {
@@ -140,16 +140,13 @@ a {
 	cursor: pointer;
 	transition: all 0.1s ease-in;
 	border-radius: 8px;
-
-	display: flex;
-	flex-direction: column;
-	justify-content: end;
 }
 .hr:hover {
 	background-color: rgba(0,0,0,0.40);
 }
 
 .hr p {
-	margin: 0 auto 0.7em auto;
+	margin: 0 auto 1em auto;
+	margin-top: 1em;
 	font-size:  40px;
 }
